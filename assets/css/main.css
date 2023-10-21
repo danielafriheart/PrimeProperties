@@ -177,7 +177,7 @@ section {
   visibility: visible;
   opacity: 1;
   left: 35px;
-  bottom: 15px;
+  bottom: 20px;
   z-index: 99999;
   background: #23D366;
   padding: 9px;
@@ -203,7 +203,7 @@ section {
   visibility: hidden;
   opacity: 0;
   right: 35px;
-  bottom: 15px;
+  bottom: 20px;
   z-index: 99999;
   background: var(--color-primary);
   width: 40px;
