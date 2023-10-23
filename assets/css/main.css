@@ -194,6 +194,7 @@ section {
 
 .whatsapp:hover {
   background: #128C7E;
+  transition-duration: 300s;
 }
 /*--------------------------------------------------------------
 # Scroll top button
@@ -688,7 +689,9 @@ section {
 }
 
 .get-started .php-email-form button[type=submit]:hover {
-  background: rgba(254, 185, 0, 0.8);
+  /* background: rgba(254, 185, 0, 0.8); */
+  background: var(--color-secondary);
+
 }
 
 @keyframes animate-loading {
@@ -1775,7 +1778,9 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(254, 185, 0, 0.8);
+  /* background: rgba(254, 185, 0, 0.8); */
+  background: var(--color-default);
+
 }
 
 @keyframes animate-loading {
@@ -2414,7 +2419,8 @@ section {
 }
 
 .blog .sidebar .search-form form button:hover {
-  background: rgba(254, 185, 0, 0.8);
+  /* background: rgba(254, 185, 0, 0.8); */
+  background: var(--color-default);
 }
 
 .blog .sidebar .categories ul {
